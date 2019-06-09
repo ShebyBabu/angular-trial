@@ -1,0 +1,20 @@
+
+<nav class="navbar navbar-inverse">
+  <!-- <div class="container-fluid"> -->
+    
+    <ul class="nav navbar-nav">
+    
+            <li><a routerLink = "/home"> HOME </a></li>
+            <li ><a [routerLink]="['/myplaylist']"> PLAYLIST </a></li>
+            <li><a routerLink = "/Wishlist"> WISHLIST </a></li> 
+            <li class="search"><app-search-track> </app-search-track></li>  
+    </ul>
+  <!-- </div> -->
+</nav>
+<!-- <app-search-track></app-search-track> -->
+
+<router-outlet></router-outlet>
+
+<!-- footer selector-->
+<!-- <app-footer></app-footer> -->
+
